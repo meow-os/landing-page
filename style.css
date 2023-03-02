@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    font-size: 100%;
+    background: rgb(0,0,0);
+    background: black;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-img {
+    height: 70px;
+}
+
+.menu-cabec {
+    display: flex;
+    gap: 32px;
+}
+
+.item-cabec {
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 480px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    font-weight: 300;
+    font-size: 62px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    font-weight: 20;
+    font-size: 25px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 2px 3px 2px rgba(255,0,0,1);
+    border-radius: 10px;
+    font-family: 'Tilt Warp', cursive;
+    color: black;
+    font-weight: 10;
+    font-size: 23px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(255,0,0,1);
+    box-shadow: 2px 3px 2px rgba(0,0,0,1);
+
+}
+
+.conteudo-principal-imagem {
+    height: 315px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    gap: 21px;
+    margin-top: 42px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-weight: 200;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-weight: 200;
+    font-size: 27px;
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 0.4px solid white;
+}
+
+.rodape-imagem {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
